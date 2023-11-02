@@ -21,6 +21,5 @@ jobs:
           cache: "npm"
           registry-url: "https://npm.pkg.github.com"
       - run: npm install
-      // - run: npm run lint
       - name: run Lint
         run: echo Success, 0 Lint failures!
